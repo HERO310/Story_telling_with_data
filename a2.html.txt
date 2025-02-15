@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Storytelling with Data</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f7fa;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(135deg, #0044cc, #0088ff);
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    }
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 2rem;
+    }
+    .graph-section {
+      background: white;
+      padding: 2rem;
+      margin-bottom: 2rem;
+      border-radius: 12px;
+      box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease-in-out;
+    }
+    .graph-section:hover {
+      transform: scale(1.02);
+    }
+    .graph-section h2 {
+      color: #0044cc;
+      border-bottom: 2px solid #0044cc;
+      padding-bottom: 0.5rem;
+    }
+    .graph-section img {
+      width: 100%;
+      max-height: 400px;
+      object-fit: contain;
+      border-radius: 8px;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    }
+    .graph-description {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      margin-top: 1rem;
+    }
+    footer {
+      background: #0044cc;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Storytelling with Data</h1>
+    <p>Visualizing insights through compelling graphs</p>
+  </header>
+
+  <div class="container">
+    <!-- Graph Section 1 -->
+    <section class="graph-section">
+      <h2>Trends Over Time</h2>
+      <img src="graph1.png" alt="Line chart showing trends over time">
+      <p class="graph-description">
+        This graph showcases trends over the past decade, highlighting key growth periods and market fluctuations.
+      </p>
+    </section>
+
+    <!-- Graph Section 2 -->
+    <section class="graph-section">
+      <h2>Sales Distribution by Region</h2>
+      <img src="graph2.png" alt="Bar chart representing sales distribution by region">
+      <p class="graph-description">
+        A bar chart illustrating the geographic sales performance, emphasizing the dominance of North America.
+      </p>
+    </section>
+
+    <!-- Graph Section 3 -->
+    <section class="graph-section">
+      <h2>Customer Demographics</h2>
+      <img src="graph3.png" alt="Pie chart showing customer demographics">
+      <p class="graph-description">
+        A breakdown of customer demographics, offering insights into age-based purchasing behavior.
+      </p>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Storytelling with Data. All rights reserved.</p>
+  </footer>
+</body>
+</html>

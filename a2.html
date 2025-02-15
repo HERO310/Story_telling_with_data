@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Storytelling with Data</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f7fa;
+      color: #333;
+    }
+    .custom-header {
+      background: #3498db;
+      color: rgb(255, 255, 255);
+      text-align: center;
+      padding: 3rem 1rem;
+      font-size: 1.5rem;
+      font-weight: bold;
+      position: relative;
+    }
+    .custom-header h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+    }
+    .custom-header p {
+      font-size: 1.2rem;
+      font-weight: 400;
+    }
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 2rem;
+    }
+    .graph-container {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      align-items: center;
+    }
+    .graph-section {
+      background: white;
+      padding: 2rem;
+      margin-bottom: 2rem;
+      border-radius: 12px;
+      box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease-in-out;
+      width: 100%;
+      text-align: center;
+    }
+    .graph-section:hover {
+      transform: scale(1.02);
+    }
+    .graph-section h2 {
+      color: #0044cc;
+      border-bottom: 2px solid #0044cc;
+      padding-bottom: 0.5rem;
+      text-align: center;
+      font-size: 1.8rem;
+    }
+    .graph-container img {
+      width: 48%;
+      max-height: 500px;
+      object-fit: contain;
+      border-radius: 8px;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    }
+    .graph-description {
+      font-size: 1.2rem;
+      line-height: 1.8;
+      margin-top: 1rem;
+      text-align: center;
+    }
+    .steps-container {
+      background: #ffffff;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+      margin-bottom: 2rem;
+    }
+    .steps-container h2 {
+      color: #2c3e50;
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+    .steps-container ul {
+      text-align: left;
+      font-size: 1.2rem;
+      line-height: 1.8;
+    }
+    .steps-container ul li {
+      margin-bottom: 0.5rem;
+    }
+    footer {
+      background: #0044cc;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header class="custom-header">
+    <h1>Game Development: Where Tech Meets Creativity – Who Leads the Way?</h1>
+  </header>
+
+  <div class="container">
+    <!-- New Section: Steps Done -->
+    <section class="steps-container">
+      <h2>Steps Done:</h2><a href="https://docs.google.com/spreadsheets/d/1IHpw7mFO1Tz1v8WubBr7_2GKnMrUu6kYDxbELYwIAYc/edit?usp=sharing" target="_blank" style="color: #3498db; text-decoration: underline; display: block; margin-bottom: 1rem;">Click here to view the dataset</a>
+      <a href="https://colab.research.google.com/drive/1hu8GjI1yikAp-Yg-P_tv3VpI0mXlkvv3?usp=sharing" target="_blank" style="color: #3498db; text-decoration: underline; display: block; margin-bottom: 1rem;">Click here to google collab</a>
+      <ul>
+        <li>Data Collection from students of first year B.Tech (2024)</li>
+        <li>Data Cleaning (removing empty rows and duplicate values)</li>
+        <li>Data Preprocessing (formatting and normalization)</li>
+        <li>Data Visualization using graphs and charts</li>
+        <li>Analysis of trends and patterns</li>
+
+      </ul>
+    </section>
+    <section class="steps-container">
+      <h2>How the data was collected</h2>
+      <p>
+        On December 25, we conducted a survey using Google Forms to uncover the curiosity of first-year students beyond their academic coursework. The data highlights students who are eager to learn game development and showcases their experiences and expertise with respect to their disciplines.
+      </p>
+      <h2>Data Cleaning </h2>
+      <p>
+        The dataset contained multiple duplicate rows, a few missing values, and some incorrectly entered roll numbers. To ensure accuracy and consistency, data cleaning was performed to remove these errors and refine the dataset.
+      </p>
+      <h2>
+        Data Visualization using graphs and chart
+        </h2><p>
+          I created a total of five graphs, carefully analyzing the dataset to extract meaningful insights. Out of these, three have been included here, as they were the most relevant in highlighting key trends and patterns. These visualizations provide a clearer understanding of the data and support the conclusions drawn.
+        </p>
+      </h2>
+      <h2>Analysis of trends and patterns</h2>
+      <p>
+
+        Our analysis revealed that Computer Science and Electrical Engineering students show the highest interest in game development due to their strong programming and system design skills. In terms of experience, Computer Science and Data Science students excel in game engine development.
+        Additionally, form submissions peaked around 9 PM, suggesting that students prefer tasks requiring focus in the evening when they are free from academic commitments. The quiet environment likely enables more thoughtful responses, highlighting a preference for engaging in cognitively demanding activities during less stressful hours.
+      </p>
+    </section>
+
+    <section class="graph-section">
+      <h2>Leading Disciplines in Game Development</h2>
+      <div class="graph-container">
+        <img src="graph1.png" alt="Line chart showing trends over time">
+        <img src="graph3.png" alt="Pie chart showing customer demographics">
+      </div>
+      <p class="graph-description">
+        The chart reveals that Computer Science and Electrical Engineering students show the highest interest in game development. Their exposure to programming, software engineering, and system architecture gives them a strong foundation in the logic, mechanics, and technical aspects of game creation. Their expertise in algorithms, optimization, and game engines allows them to build complex and efficient gaming environments.
+      </p>
+      <p class="graph-description">
+        However, the second chart highlights that when it comes to experience, Computer Science and Data Science students lead the way. Computer Science students, with their expertise in programming, optimization, and game engine development, dominate the technical side of game creation. Meanwhile, Data Science students bring significant experience in AI-driven game mechanics, procedural content generation, and player behavior analytics. Their ability to leverage data allows for smarter, more adaptive gameplay experiences.
+      </p>
+    </section>
+
+    <section class="graph-section">
+      <h2>At What Hour Do Students Feel Most Productive?</h2>
+      <div class="graph-container">
+        <img src="graph2.png" alt="Bar chart representing sales distribution by region" style="width: 80%; max-height: 500px;">
+      </div>
+      <p class="graph-description">
+        The chart reveals an interesting trend in student behavior, indicating that the majority of form submissions occur around 9 PM. This timing suggests that students are most likely to be relaxed and free from other distractions during this period. At this time, they may have completed their academic responsibilities for the day, allowing them to focus fully on filling out the form with greater attention to detail. This finding could be interpreted in various ways, including that students prefer to engage in tasks requiring concentration when they are less burdened by ongoing commitments or obligations.Additionally, the evening hours may provide a quieter and more conducive environment for reflective thinking, enabling students to provide more thoughtful and accurate responses. 
+      </p>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; Made By Aryan Verma ✌️</p>
+  </footer>
+</body>
+</html>
